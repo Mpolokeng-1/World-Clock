@@ -1,6 +1,10 @@
 body {
   background-color: #f9f7fe;
   font-family: sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/279/original/world-wide-time-zone-clock-clocks-wall-showing-time-around-world-generative-ai_788160-2404.jpg?1726759549");
+  opacity: 0.9;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -25,7 +29,7 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: #fffdf6;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -44,7 +48,7 @@ select {
 }
 
 .date {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .time {
@@ -58,8 +62,12 @@ select {
   line-height: 48px;
 }
 
-footer {
-  text-align: center;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.6);
+.content {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 60px auto;
+  background: #fffdf6;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
 }
